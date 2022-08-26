@@ -67,6 +67,40 @@ img {
   transform: translateY(500%);
 }
 
+.wife{
+    color: rgb(96, 0, 252);
+}
+
+.tasha{
+    color: rgb(17, 0, 255);
+}
+
+.message-body{
+    text-shadow: #0006 2px 2px 2px;
+    padding: 190px 50px;
+    margin: 50px auto 0;
+    resize: none;
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(85355.jpg);
+    background-size: 900px;
+    border-color: rgb(129, 227, 252);
+    border-style: ridge;
+    border-width: 8px;
+    border-radius: 35px;
+}
+
+.message-body h2{
+    line-height: 3rem;
+    color: rgb(236, 235, 235);
+}
+
+.message-body h3{
+    color: blueviolet;
+}
+
 .img-animation {
   display: block;
   -webkit-animation: slide-in-elliptic-top-fwd 0.7s
