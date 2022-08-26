@@ -21,7 +21,7 @@ div {
   height: 100%;
 }
 
-button {
+.party {
   transition: 400ms;
   position: absolute;
   font-weight: 700;
@@ -42,6 +42,25 @@ button:active {
 img {
   display: none;
   margin: 75px auto 0;
+}
+
+.show-button{
+  position: absolute;
+  font-weight: 700;
+  color: rgb(7, 155, 155);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(12, 235, 235);
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  left: 46.1%;
+  bottom: 10%;
+  display: block;
+}
+
+.hide-button{
+    display: none;
 }
 
 .start-button {
